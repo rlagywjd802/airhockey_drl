@@ -5,6 +5,7 @@ This is the capstone project of Hyojeong Kim, Namki Yu and Kyungeun Kim in Hanya
 ## v1.0
 Using Deep Q Network
 * hyper parameters
+
 $\gamma$ = 0.99
 $\alpha$ = 0.001
 $\epsilon$ = 1.0
