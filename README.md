@@ -1,5 +1,5 @@
 # airhockey_drl
-Development of Deep Reinforcement Learning algorithm to defeat a human player in Air Hockey Game.
+Deep Reinforcement Learning algorithm to defeat a human player in Air Hockey Game.
 This is the capstone project of Hyojeong Kim, Namki Yu and Kyungeun Kim in Hanyang University.
 
 ## v1.0
@@ -21,7 +21,7 @@ Using Deep Q Network
         - puck_location
         - puck_velocity
     - output size : 9
-        - action_space = ['u', 'd', 'r', 'l', 'ul', 'dl', 'ur', 'ul', 's']
+        - up, down, right, left, up_left, down_left, up_right, down_right, stop
     - hidden size : (24, 24)
     - initializer : 'he_uniform' 
     - loss : 'mse'
