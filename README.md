@@ -6,7 +6,7 @@ This is the capstone project of Hyojeong Kim, Namki Yu and Kyungeun Kim in Hanya
 Using Deep Q Network
 * hyper parameters
 
-$\gamma$ = 0.99
+$$\gamma = 0.99$$
 $\alpha$ = 0.001
 $\epsilon$ = 1.0
 batch_size = 64
