@@ -6,23 +6,22 @@ This is the capstone project of Hyojeong Kim, Namki Yu and Kyungeun Kim in Hanya
 Using Deep Q Network
 
 * hyper parameters
-
-    discount_factor = 0.99
-    learning_rate = 0.001
-    epsilon = 1.0
-    epsilon_decay_step = 9e-06
-    batch_size = 64
-    train_start = 1000
+    - discount_factor = 0.99
+    - learning_rate = 0.001
+    - epsilon = 1.0
+    - epsilon_decay_step = 9e-06
+    - batch_size = 64
+    - train_start = 1000
 
 * neural network
     - 4 Layers
-    - input size : 9
-        paddle_position(x, y)
-        paddle_velocity(dx, dy)
-        puck_location(a, b)
-        puck_velocity(da, db)
+    - input size : 8    
+        - paddle_position
+        - paddle_velocity
+        - puck_location
+        - puck_velocity
     - output size : 9
-        action_space = ['u', 'd', 'r', 'l', 'ul', 'dl', 'ur', 'ul', 's']
+        - action_space = ['u', 'd', 'r', 'l', 'ul', 'dl', 'ur', 'ul', 's']
     - hidden size : (24, 24)
     - initializer : 'he_uniform' 
     - loss : 'mse'
